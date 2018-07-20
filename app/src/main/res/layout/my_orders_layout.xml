@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+
+
+	<!--android:layout_gravity="center"-->
+	<TextView
+		android:layout_marginTop="4dp"
+		android:layout_marginLeft="4dp"
+		android:layout_marginStart="4dp"
+		android:layout_marginRight="4dp"
+		android:layout_marginEnd="4dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="20sp"
+		android:text="ID: "
+		android:layout_weight="1"
+		android:id="@+id/all_requests_id"
+		/>
+
+	<TextView
+		android:layout_marginTop="4dp"
+		android:layout_marginLeft="4dp"
+		android:layout_marginStart="4dp"
+		android:layout_marginRight="4dp"
+		android:layout_marginEnd="4dp"
+		android:textSize="20sp"
+		android:id="@+id/all_requests_status"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="Status: " />
+
+	<TextView
+		android:id="@+id/all_requests_gone_id"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:visibility="gone"
+		android:text="" />
+
+	<TextView
+		android:layout_marginTop="4dp"
+		android:layout_marginLeft="4dp"
+		android:layout_marginStart="4dp"
+		android:layout_marginRight="4dp"
+		android:layout_marginEnd="4dp"
+		android:textSize="20sp"
+		android:id="@+id/all_requests_customer_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="Name: " />
+
+	<TextView
+		android:layout_marginTop="4dp"
+		android:layout_marginLeft="4dp"
+		android:layout_marginStart="4dp"
+		android:layout_marginRight="4dp"
+		android:layout_marginEnd="4dp"
+		android:textSize="20sp"
+		android:id="@+id/all_requests_total"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="Total: " />
+
+	<TextView
+		android:layout_marginTop="4dp"
+		android:layout_marginLeft="4dp"
+		android:layout_marginStart="4dp"
+		android:layout_marginRight="4dp"
+		android:layout_marginEnd="4dp"
+		android:textSize="20sp"
+		android:id="@+id/all_requests_date"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="Date: " />
+
+	<TextView
+		android:layout_marginTop="4dp"
+		android:layout_marginLeft="4dp"
+		android:layout_marginStart="4dp"
+		android:layout_marginRight="4dp"
+		android:layout_marginEnd="4dp"
+		android:textSize="20sp"
+		android:id="@+id/all_requests_time"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="Time: " />
+
+	<TextView
+		android:layout_marginTop="4dp"
+		android:layout_marginLeft="4dp"
+		android:layout_marginStart="4dp"
+		android:layout_marginRight="4dp"
+		android:layout_marginEnd="4dp"
+		android:textSize="20sp"
+		android:id="@+id/all_requests_address"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="Address: " />
+
+	<TextView
+		android:layout_marginTop="4dp"
+		android:layout_marginLeft="4dp"
+		android:layout_marginStart="4dp"
+		android:layout_marginRight="4dp"
+		android:layout_marginEnd="4dp"
+		android:textSize="20sp"
+		android:id="@+id/all_requests_phone"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="Phone: " />
+
+	<TextView
+		android:layout_marginTop="4dp"
+		android:layout_marginLeft="4dp"
+		android:layout_marginStart="4dp"
+		android:layout_marginRight="4dp"
+		android:layout_marginEnd="4dp"
+		android:textSize="20sp"
+		android:id="@+id/all_requests_details"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="Details: " />
+
+	<TextView
+		android:id="@+id/all_requests_border"
+		android:layout_width="match_parent"
+		android:layout_height="6dp"
+		android:layout_weight="1"
+		android:background="#bfbfbf"
+		android:text="" />
+</LinearLayout>
